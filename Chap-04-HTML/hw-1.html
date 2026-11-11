@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html>
+  <body>
+    <!-- indentation (typically 4 spaces) -->
+    <table
+      border="1"
+      cellspacing="0"
+      align="center"
+      width="265"
+      cellpadding="4"
+    >
+      <tr height="50">
+        <td width="80">Row 1, Column 1</td>
+        <td width="75">Row 1, Column 2</td>
+        <td colspan="2" rowspan="2">Rows 1-2, Columns 3-4</td>
+      </tr>
+
+      <tr height="50">
+        <td>Row 2, Column 1</td>
+        <td>Row 2, Column 2</td>
+      </tr>
+
+      <tr height="50" bgcolor="red">
+        <!-- 
+             align -> horizontally alignment
+             valign -> vertically alignment
+             
+             valine -> amino acid 
+        -->
+        <td align="center" valign="top" colspan="2">Row 3, Columns 1-2</td>
+        <td>Row 3, Column 3</td>
+        <td rowspan="2">Rows 3-4, Column 4</td>
+      </tr>
+
+      <tr height="50" bgcolor="cyan">
+        <td><font color="facda">Row 4, Column 1</font></td>
+        <td style="padding: 10px">
+          <span style="color: rgb(46, 45, 110)"> Row 4, Column 2 </span>
+        </td>
+        <td>Row 4, Column 3</td>
+      </tr>
+    </table>
+  </body>
+</html>
